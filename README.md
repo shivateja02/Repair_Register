@@ -33,12 +33,36 @@ The **RepairRegister** application allows users to register their car issues for
 
 ## User 1: Car Repair Form
 ![User1: Car Form Input](images/User1_Register_form.png)
+Description:
+-User 1 fills out the car repair registration form. Fields include Customer ID, customer name, car number, brand, issue description, address, and contact number.
+This form sends a POST request to the servlet for database insertion.
 
 ## User 1: Submission Message
 ![User1: Success Message](images/User1_Submission_message.png)
+Description:
+After submitting, a success message is shown:
+"Mr. teja, your car issue got registered. We will intimate you after repair/service. Thank you for choosing us!"
+This message is dynamically generated using servlet logic.
+
 
 ## User 1: MySQL Entry
 ![User1: Database Entry](images/User1_MySQL.png)
+Description:
+The data submitted by User 1 is successfully stored in the car_details table of the vehicle MySQL database.
+
+## User 2: Car Repair Form
+![User1: Car Form Input](images/User2_Register_form.png)
+Description:
+Another user Harsha fills in the form with her vehicle and contact details. The same form is reused for multiple submissions by different users.
+
+## User 2: Submission Message
+![User1: Success Message](images/User2_Submission_message.png)
+
+
+## User 1 & 2: MySQL Entry
+![User1: Database Entry](images/User1&2_MySQL_data.png)
+Description:
+The MySQL table now reflects both submissions. It confirms that each user’s data is correctly inserted and the system supports multiple registrations.
 
 ## Features
 Customer form to register car issues
