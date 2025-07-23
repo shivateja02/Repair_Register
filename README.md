@@ -6,7 +6,7 @@ RepairRegister is a web application designed to streamline the car repair servic
 The **RepairRegister** application allows users to register their car issues for service or repair in a few simple steps:
 
 ### 1. User Accesses the Form
-- The user opens the car service registration form (`CarDetails.jsp`).
+- The user opens the car service registration form (`Car_form.jsp`).
 - They fill out details such as:
   - Name
   - Car Number
