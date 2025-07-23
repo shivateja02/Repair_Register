@@ -31,6 +31,14 @@ The **RepairRegister** application allows users to register their car issues for
 ### 5. Backend Storage
 - The submitted records are securely stored in the MySQL database and can be accessed by the service center for follow-up, status updates, or reporting.
 
+## User 1: Car Repair Form
+![User1: Car Form Input](images/User1_Register_form.png)
+
+## User 1: Submission Message
+![User1: Success Message](images/User1_Submission_message.png)
+
+## User 1: MySQL Entry
+![User1: Database Entry](images/User1_MySQL.png)
 
 ## Features
 Customer form to register car issues
